@@ -1,0 +1,23 @@
+* {
+    color: fuchsia;
+    background-color: blue;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+
+    margin: 0
+}
+
+img {
+
+    width: 100vw;
+}
+
+.footer::after {
+     position: fixed; 
+    bottom: 0;
+    right: 100px;
+    content: 'copyright 2022 Alfredo Suarez';
+    background-color:  darkgreen ;
+    color:floralwhite;
+}
